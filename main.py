@@ -12,7 +12,7 @@ import requests
 import buttons
 
 
-bot = Bot('6190522766:AAGb4RbppHk4adpqpl7uuta5Vr164Wd4wSo')
+bot = Bot('TOKEN')
 dp = Dispatcher(bot, storage=MemoryStorage())
 
 # Глобальный словарь для хранения ticket_id пользователя
